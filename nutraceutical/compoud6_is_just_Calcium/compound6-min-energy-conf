@@ -1,0 +1,3 @@
+* THIS IS A PM7 CALC for compound6.sdf-min-energy-conf *
+XYZ SINGLET CHECK CHARGE=0 GEO_DAT="/Users/madmarchhare/ms-testing_DBlib/DrugBankNew/nutraceutical/compound6.sdf-min-energy-conf.mopcrt" &
+PM7 OPT EF EPS=78.4 LET DDMIN=0 COSWRT PRTXYZ
