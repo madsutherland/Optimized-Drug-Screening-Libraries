@@ -5,7 +5,11 @@ Here, I take in silico drug screening libraries and run conformer driving in MMF
 
 Folder/file convention:
 DB_xxx.sdf = the libraries I started with;
+
 initial_geos = molecular structure files for conformers generated in MMFF using OpenBabel's GetConformers functionality;
+
 MOPAC_infiles = input files to energy-optimize atomic coordinates, starting with those in initial_geos, in MOPAC using PM7 and the COSMO solvent model;
+
 MOPAC_outfiles = .out, .arc and .cos files from those MOPAC runs;
-optimized_geos = *final, optimized* molecular structures for the conformers, extracted from the MOPAC outfiles, in .xyz format and after conversion to .sdf using Mathematica or Open Babel.
+
+optimized_geos = *final, optimized* molecular structures for the conformers, extracted from the MOPAC outfiles, in .xyz format and after conversion to .sdf using Open Babel. *Note* Open Babel has known issues interpreting polyheterocyclic structures. If you encounter a structure with a valence error, the original/correct structure is in the MOPAC outfiles.
