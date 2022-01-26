@@ -6,6 +6,7 @@ Here, I take in silico drug screening libraries and run conformer driving in MMF
 Folder/file convention:
 Within each folder of this repo, you'll find a chemical library. The files for each library include...
 
+
 optimized_conformer_geos = *final, optimized* molecular structures for the conformers, extracted from the MOPAC outfiles, in .xyz format and after conversion to .sdf using Open Babel. *Note* Open Babel has known issues interpreting polyheterocyclic structures. If you encounter a structure with a valence error, the original/correct structure is in the MOPAC outfiles.
 
 MOPAC_outfiles = .out, .arc and .cos files from MOPAC geometry optimization runs on conformers;
