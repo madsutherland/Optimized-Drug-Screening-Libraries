@@ -17,3 +17,5 @@ MOPAC_infiles = input files MOPAC refers to for geometry optimization calculatio
 starting_compound_geos = one starting structure for each molecule, the structures fed into the conformer driviing step my workflow;
 
 xxx.sdf = a single file containing the information curated (i.e. from Drug Bank) about each molecule in the library, including the SMILES strings used to build a starting structure in Mathematica. 
+
+*Note* The Drug Bank - Approved library is the large one (2370 molecules), so that folder contains additional writen materials (a Word document and a Mathematica notebook) explaining what I did.
